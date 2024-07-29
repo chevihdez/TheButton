@@ -8,8 +8,10 @@ public class ToggleAnimationHandler : MonoBehaviour
 
     [SerializeField] Animator _animator;
 
+
     public void SendAnimationTrigger(bool value)
     {
         _animator.SetTrigger(value.ToString());
+
     }
 }
